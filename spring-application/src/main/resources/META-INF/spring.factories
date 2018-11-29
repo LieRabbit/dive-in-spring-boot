@@ -1,0 +1,15 @@
+# Initializers
+org.springframework.context.ApplicationContextInitializer=\
+lierabbit.diveinspringboot.context.AfterHelloWorldApplicationContextInitializer,\
+lierabbit.diveinspringboot.context.HelloWorldApplicationContextInitializer
+
+# Application Listeners
+org.springframework.context.ApplicationListener=\
+lierabbit.diveinspringboot.listener.AfterHelloWorldApplicationListener,\
+lierabbit.diveinspringboot.listener.HelloWorldApplicationListener,\
+lierabbit.diveinspringboot.listener.BeforeConfigFileApplicationListener,\
+lierabbit.diveinspringboot.listener.AfterConfigFileApplicationListener
+
+# SpringApplicationRunListener 实现
+org.springframework.boot.SpringApplicationRunListener=\
+lierabbit.diveinspringboot.run.HelloWorldRunListener
